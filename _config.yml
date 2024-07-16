@@ -1,7 +1,7 @@
 #######################################################################################
 # Book settings
-title: Computational and Inferential Thinking
-author: Ani Adhikari and John DeNero and David Wagner
+title: Pengantar Sains Data Spasial
+author: Firman Hadi, Yasser Wahyudin, L.M. Sabri
 email: ''
 logo                        : "favicon.png"  # A path to the book logo
 exclude_patterns            : ["README.md"]  # Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
@@ -27,12 +27,12 @@ html:
 #######################################################################################
 # Launch button settings
 launch_buttons:
-  jupyterhub_url            : https://datahub.berkeley.edu
+  #jupyterhub_url            : https://datahub.berkeley.edu
   binderhub_url             : https://mybinder.org  # The URL of the BinderHub (e.g., https://mybinder.org)
   notebook_interface        : jupyterlab
 
 repository:
-  url                       : https://github.com/data-8/textbook  # The URL to your book's repository
+  url                       : https://github.com/firmanhadi21/spatial_data_science  # The URL to your book's repository
   branch                    : main  # Which branch of the repository should be used when creating links
 
 sphinx:
