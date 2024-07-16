@@ -40,6 +40,6 @@ jobs:
         github_token: {{ secrets.GITHUB_TOKEN }}
         publish_branch: master
         publish_dir: ./_build/html
-        cname: firmanhadi21.github.com
+        cname: firmanhadi21.github.io
         external_repository: spatial_data_science
         deploy_key: ${{ secrets.DEPLOY_DOCS }}
